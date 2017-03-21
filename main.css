@@ -10,7 +10,8 @@ body{
 
 
 #header-name{
-    font-size: 40px;
+    font-size: 60px;
+    text-decoration: underline;
     color: black;
     padding: 15px;
     margin: 0px 0px 0px 0px;
@@ -29,7 +30,7 @@ body{
     margin: 10px 10px 10px 10px;
 }
 #main-header{
-    height: 80px;
+    height: 60px;
 }
 #main-image{
     width: 700px;
@@ -47,6 +48,15 @@ body{
     padding: 5px;
     float: left;
     font-family: fantasy;
+    text-decoration: underline;
+}
+#welcome-part2 {
+    font-size: 30px;
+    color: black;
+    padding: 15px;
+    font-family: fantasy;
+    text-decoration: underline;
+    float: right;
 }
 #welcome-text{
     float: left;
@@ -80,35 +90,52 @@ body{
     margin: 0px 0px 3px 0px;
 }
 #guitar-header{
-    color: green;
+    color: black;
     font-size: 15px;
+    text-decoration: underline;
     margin: 0px 0px 3px 0px
     height: 25px;
 }
 .products{
     width: 25%;
-    float: left;
-    margin: 0px 0px 20px 0px;
+    margin: auto;
 }
 .product-article{
-    height: 150px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
     border-width: 2px;
     border-style: solid;
     border color: blue;
-    margin: 3px 3px 3px 3px;
+    margin: auto;
     padding: 3px 3px 3px 3px;
     border-radius: 5px;
 }
 .product-thumbnail {
-    width: 35px;
-    height: 35px;
+    width: 150px;
+    height: 200px;
 
+}
+.product-article2 {
+    height: 300px;
+    width: 250px;
+    border-width: 2px;
+    border-style: solid;
+    border color: blue;
+    margin: auto;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+    .product-thumbnail2 {
+    width: 150px;
+    height: 200px;
 }
 footer{
     width:100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: antiquewhite;
-    margin: 20px 0px 20px 0px;
-    padding: 5px 0px 0px 0px;
+    margin auto;
+    padding: 1rem;
     border-radius: 5px;
+    text-align: center;
 }
